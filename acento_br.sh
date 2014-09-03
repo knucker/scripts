@@ -8,24 +8,23 @@
 ##
 # ACENTO	= COMBO UTILIZADO NO TEXTO
 #
-#	ã 		=		~a
-#	â 		=		^a
-#	à 		=		`a
-#	á 		=		'a
-#	ê 		=		^e
-#	é 		=		'e
-#	í 		=		'i 
-#	õ 		=		~o
-#	ô 		=		^o
-#	ó 		=		'o
-#	ú 		=		'u
-#	ü 		=		`u
-#	ç 		=		'c
+#	ã 	=	~a
+#	â 	=	^a
+#	à 	=	`a
+#	á 	=	'a
+#	ê 	=	^e
+#	é 	=	'e
+#	í 	=	'i 
+#	õ 	=	~o
+#	ô 	=	^o
+#	ó 	=	'o
+#	ú 	=	'u
+#	ü 	=	`u
+#	ç 	=	'c
 
 FILE="$1"
 
-if [ ""${FILE}"" == "" ]
-then
+if [ "${FILE}" == "" ]; then
 	echo ""
 	echo "You must provide the filename."
 	echo "USAGE:"
